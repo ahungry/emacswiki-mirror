@@ -1,0 +1,4 @@
+(anki-editor
+ :fetcher github
+ :repo "ahungry/emacswiki-mirror"
+ :files ("anki-editor.el"))

@@ -1,0 +1,4 @@
+(molecule
+ :fetcher github
+ :repo "ahungry/emacswiki-mirror"
+ :files ("molecule.el"))

@@ -1,0 +1,4 @@
+(firrtl-mode
+ :fetcher github
+ :repo "ahungry/emacswiki-mirror"
+ :files ("firrtl-mode.el"))

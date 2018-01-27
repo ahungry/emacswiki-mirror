@@ -1,0 +1,4 @@
+(cquery
+ :fetcher github
+ :repo "ahungry/emacswiki-mirror"
+ :files ("cquery.el"))

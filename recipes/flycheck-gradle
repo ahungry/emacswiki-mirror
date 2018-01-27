@@ -1,0 +1,4 @@
+(flycheck-gradle
+ :fetcher github
+ :repo "ahungry/emacswiki-mirror"
+ :files ("flycheck-gradle.el"))

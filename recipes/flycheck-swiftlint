@@ -1,0 +1,4 @@
+(flycheck-swiftlint
+ :fetcher github
+ :repo "ahungry/emacswiki-mirror"
+ :files ("flycheck-swiftlint.el"))

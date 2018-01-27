@@ -1,0 +1,4 @@
+(elcord
+ :fetcher github
+ :repo "ahungry/emacswiki-mirror"
+ :files ("elcord.el"))
