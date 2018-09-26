@@ -180,18 +180,18 @@
 
 ;; Load Bookmark+ libraries.
 ;;
-(eval-when-compile
- (or (condition-case nil
-         (load-library "bookmark+-mac") ; Lisp macros.
-       (error nil))                     ; Use load-library to ensure latest .elc.
-     (require 'bookmark+-mac)))         ; Require, so can load separately if not on `load-path'.
+;; (eval-when-compile
+;;  (or (condition-case nil
+;;          (load-library "bookmark+-mac") ; Lisp macros.
+;;        (error nil))                     ; Use load-library to ensure latest .elc.
+;;      (require 'bookmark+-mac)))         ; Require, so can load separately if not on `load-path'.
 
-(require 'bookmark+-lit nil t)          ; Optional (soft require) - no error if not found.  If you do
-                                        ; not want to use `bookmark+-lit.el' then simply do not put
-                                        ; that file in your `load-path'.
-(require 'bookmark+-bmu)                ; `*Bookmark List*' (aka "menu list") stuff.
-(require 'bookmark+-1)                  ; Rest of Bookmark+, except keys & menus.
-(require 'bookmark+-key)                ; Keys & menus.
+;; (require 'bookmark+-lit nil t)          ; Optional (soft require) - no error if not found.  If you do
+;;                                         ; not want to use `bookmark+-lit.el' then simply do not put
+;;                                         ; that file in your `load-path'.
+;; (require 'bookmark+-bmu)                ; `*Bookmark List*' (aka "menu list") stuff.
+;; (require 'bookmark+-1)                  ; Rest of Bookmark+, except keys & menus.
+;; (require 'bookmark+-key)                ; Keys & menus.
 
 ;;;;;;;;;;;;;;;;;;;;;;;
 
